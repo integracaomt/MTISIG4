@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="stroke_color">Stroke color        </string>
+    <string name="width">Stroke width</string>
+    <string name="alpha">Stroke alpha</string>
+    <string name="fill_color">Fill color</string>
+    <string name="fill_alpha">Fill alpha</string>
+    <string name="point_shape_">"Point shape     "</string>
+    <string name="point_size">Point size</string>
+    <string name="decimation">Decimation</string>
+    <string name="decimation_factor_default">0.000001</string>
+    <string name="min_zoom">Min zoom</string>
+    <string name="max_zoom">Max zoom</string>
+    <string name="dash_pattern">Dash pattern</string>
+    <string name="label_properties">Label properties</string>
+    <string name="toggle_visibility">toggle visibility</string>
+    <string name="label_field">label field</string>
+    <string name="label_size">label size</string>
+</resources>

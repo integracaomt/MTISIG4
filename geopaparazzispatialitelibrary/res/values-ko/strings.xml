@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="stroke_color">테두리 색상</string>
+  <string name="width">테두리 두께</string>
+  <string name="alpha">테두리 알파</string>
+  <string name="fill_color">채움 색상</string>
+  <string name="fill_alpha">채움 알파</string>
+  <string name="point_shape_">점 모양</string>
+  <string name="point_size">점 크기</string>
+  <string name="decimation">데시메이션</string>
+  <string name="decimation_factor_default">0.000001</string>
+  <string name="min_zoom">최소 확대</string>
+  <string name="max_zoom">최대 확대</string>
+  <string name="dash_pattern">대시 패턴</string>
+  <string name="label_properties">레이블 속성</string>
+  <string name="toggle_visibility">보이기 전환</string>
+  <string name="label_field">레이블 필드</string>
+  <string name="label_size">레이블 크기</string>
+</resources>
