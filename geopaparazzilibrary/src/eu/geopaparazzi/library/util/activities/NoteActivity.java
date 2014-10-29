@@ -21,6 +21,7 @@ import java.sql.Date;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.view.View;
@@ -99,6 +100,7 @@ public class NoteActivity extends Activity {
                     Intent intent = getIntent();
                     intent.putExtra(LibraryConstants.PREFS_KEY_NOTE, noteArray);
                     setResult(Activity.RESULT_OK, intent);
+
 
                 } catch (Exception e) {
                     GPLog.error(this, e.getLocalizedMessage(), e);

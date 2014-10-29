@@ -163,7 +163,7 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" >
 
-        <SlidingDrawer
+
             android:id="@+id/osmslide"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -185,7 +185,8 @@
                 android:layout_gravity="center"
                 android:background="@color/main_background"
                 android:orientation="vertical"
-                android:padding="10dip" >
+                android:padding="10dip"
+                android:visibility="gone">
 
                 <GridView
                     android:id="@+id/osmcategoriesview"
@@ -204,7 +205,7 @@
                     android:text="Sync OSM notes with server" >
                 </Button>
             </LinearLayout>
-        </SlidingDrawer>
+
     </FrameLayout>
 
     <Button

@@ -170,7 +170,7 @@ public class MapTagsActivity extends Activity {
             }
         });
 
-        GridView buttonGridView = (GridView) findViewById(R.id.osmgridview);
+
         try {
             Set<String> sectionNames = TagsManager.getInstance(this).getSectionNames();
             tagNamesArray = sectionNames.toArray(new String[sectionNames.size()]);
@@ -239,7 +239,7 @@ public class MapTagsActivity extends Activity {
         };
 
         // setListAdapter(arrayAdapter);
-        buttonGridView.setAdapter(arrayAdapter);
+
     }
 
     @Override

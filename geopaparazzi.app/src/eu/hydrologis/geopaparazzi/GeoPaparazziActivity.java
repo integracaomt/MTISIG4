@@ -417,11 +417,7 @@ public class GeoPaparazziActivity extends Activity {
                 push(logButtonId, v);
             }
         });
-        if (lastGpsLoggingStatus == GpsLoggingStatus.GPS_DATABASELOGGING_ON) {
-            logButton.setImageResource(R.drawable.dashboard_stop_log_item);
-        } else {
-            logButton.setImageResource(R.drawable.dashboard_log_item);
-        }
+
 
         final int mapButtonId = R.id.dashboard_map_item_button;
         ImageButton mapButton = (ImageButton) findViewById(mapButtonId);

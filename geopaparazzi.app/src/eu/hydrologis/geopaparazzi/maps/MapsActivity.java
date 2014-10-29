@@ -508,13 +508,13 @@ public class MapsActivity extends MapActivity implements OnTouchListener, OnClic
         int visibility = View.VISIBLE;
         if (categoriesNamesArray == null) {
             categoriesNamesArray = new String[]{""}; //$NON-NLS-1$
-            visibility = View.GONE; // invisible
+            visibility = View.VISIBLE; // invisible
         }
-        doOsm = visibility != View.GONE;
+        doOsm = visibility != View.VISIBLE;
         boolean doOsmPref = preferences.getBoolean(Constants.PREFS_KEY_DOOSM, false);
         doOsm = doOsm && doOsmPref;
         if (!doOsm) {
-            visibility = View.GONE; // invisible
+            visibility = View.VISIBLE; // invisible
         }
 
         final String[] categoriesNamesArrayFinal = categoriesNamesArray;
@@ -1457,11 +1457,11 @@ public class MapsActivity extends MapActivity implements OnTouchListener, OnClic
             listBookmarksButton.setVisibility(View.VISIBLE);
             toggleMeasuremodeButton.setVisibility(View.VISIBLE);
         } else {
-            addnotebytagButton.setVisibility(View.GONE);
-            addBookmarkButton.setVisibility(View.GONE);
-            listNotesButton.setVisibility(View.GONE);
-            listBookmarksButton.setVisibility(View.GONE);
-            toggleMeasuremodeButton.setVisibility(View.GONE);
+            addnotebytagButton.setVisibility(View.VISIBLE);
+            addBookmarkButton.setVisibility(View.VISIBLE);
+            listNotesButton.setVisibility(View.VISIBLE);
+            listBookmarksButton.setVisibility(View.VISIBLE);
+            toggleMeasuremodeButton.setVisibility(View.VISIBLE);
         }
     }
 
@@ -1478,7 +1478,7 @@ public class MapsActivity extends MapActivity implements OnTouchListener, OnClic
 
         int visibility = View.VISIBLE;
         if (!enable) {
-            visibility = View.GONE;
+            visibility = View.VISIBLE;
         }
         addnotebytagButton.setVisibility(visibility);
         addBookmarkButton.setVisibility(visibility);

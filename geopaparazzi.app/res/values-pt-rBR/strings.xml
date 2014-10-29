@@ -2,7 +2,7 @@
 <resources>
   <string name="yes">sim</string>
   <string name="no">não</string>
-  <string name="app_name">Geopaparazzi</string>
+  <string name="app_name">MTISIG4</string>
   <string name="notesvisibilityToggle">Alternar visibilidade de notas.</string>
   <string name="kmlsaved">Os dados foram exportados com sucesso para: </string>
   <string name="kmlnonsaved">Ocorreu um erro durante a exportação de dados!</string>
@@ -21,10 +21,11 @@
   <string name="prompt_gpsenable">Seu GPS está desabilitado! Você gostaria de habilitá-lo?</string>
   <string name="width_label">largura</string>
   <string name="color_label">cor</string>
-  <string name="mainmenu_kmlexport">exportar</string>
-  <string name="mainmenu_import">importar</string>
+  <string name="mainmenu_kmlexport">Enviar</string>
+  <string name="mainmenu_import">Atualizar</string>
   <string name="mainmenu_gpsdataselect">Lista de dados do gps</string>
-  <string name="mainmenu_preferences">Configurações</string>
+    <string name="project_info">Editar Dados</string>
+    <string name="mainmenu_preferences">Configurações</string>
   <string name="mainmenu_merge">mesclar registros selecionados</string>
   <string name="gpslogproperty">Propriedades para: </string>
   <string name="gpslog_chart">Gráfico</string>
@@ -45,8 +46,8 @@
   <string name="gpx_import_processing">Importando gpx…</string>
   <string name="osm_additionalinfo">Adicionar informações à etiqueta</string>
   <string name="osm_tagsgrid">Escolha uma etiqueta a ser inserida</string>
-  <string name="text_show_position_on_map">Ver mapa</string>
-  <string name="text_take_a_gps_note">fazer nota</string>
+  <string name="text_show_position_on_map">Ver Mapa</string>
+  <string name="text_take_a_gps_note">Nova Coleta</string>
   <string name="text_undo_a_gps_note">desfazer nota</string>
   <string name="gps_log">registro de gps</string>
   <string name="gps_log_name">Insira um nome de registro de gps ou aceite o padrão</string>
@@ -61,7 +62,7 @@
   <string name="message_sent">Mensagem enviada</string>
   <string name="last_note_deleted">Excluida última nota</string>
   <string name="last_note_not_deleted">Não foi possível excluir última nota</string>
-  <string name="text_logging">registrando</string>
+  <string name="text_logging">Lista de Coletas</string>
   <string name="text_gpson">gps ligado</string>
   <string name="debug">Preferências de depuração</string>
   <string name="enable_debug">Habilitar registro de depuração</string>

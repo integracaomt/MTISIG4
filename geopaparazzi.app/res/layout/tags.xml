@@ -48,7 +48,7 @@
             android:src="@drawable/quickaction_sketch" />
     </LinearLayout>
 
-    <TextView
+    TextView
         android:id="@+id/formnotestlabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -56,14 +56,14 @@
         android:layout_marginTop="10dip"
         android:text="@string/formnotes" />
 
-    <TextView
+    TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dip"
         android:paddingBottom="5dip"
         android:text="@string/osm_tagsgrid" />
 
-    <GridView
+    GridView
         android:id="@+id/osmgridview"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
