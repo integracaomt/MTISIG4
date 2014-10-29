@@ -102,6 +102,7 @@ public class NoteActivity extends Activity {
                     setResult(Activity.RESULT_OK, intent);
 
 
+
                 } catch (Exception e) {
                     GPLog.error(this, e.getLocalizedMessage(), e);
                     e.printStackTrace();
